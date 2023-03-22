@@ -1,0 +1,22 @@
+{
+    "openai_key": "",
+    "modules": [
+        "login",
+        "logup",
+        "splash",
+        "dasboard",
+        "favorite",
+        "detail",
+        "cart",
+        "gift",
+        "checkout",
+        "confirmation",
+        "sale",
+        "profile",
+        "setting",
+        "catergory",
+        "search",
+        "account",
+        "slider"
+    ]
+}
