@@ -1,51 +1,52 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color blueColor = const Color(0xff4B6CB7);
-Color redColor = const Color(0xffFF0000);
+Color purpleColor = const Color(0xff4B46B8);
+Color orangeColor = const Color(0xffF76834);
+Color darkColor = const Color(0xff1A172C);
+Color whiteColor = const Color(0xffFCFCFC);
+Color greyColor = const Color(0xff868696);
 Color blueDarkColor = const Color(0xff334C83);
-Color darkColor = const Color(0xff182848);
-Color whiteColor = const Color(0xffFFFFFF);
-Color greyColor = const Color(0xffC4C4C4);
+Color white2Color = const Color(0x000000ff);
 
-TextStyle darkTextStyle = GoogleFonts.poppins(
+TextStyle darkTextStyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w500,
   color: darkColor,
 );
 
-TextStyle whiteTextStyle = GoogleFonts.poppins(
+TextStyle whiteTextStyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w500,
   color: whiteColor,
 );
 
-TextStyle greyTextStyle = GoogleFonts.poppins(
+TextStyle greyTextStyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w300,
   color: greyColor,
 );
 
-TextStyle blueTextstyle = GoogleFonts.poppins(
+TextStyle purpleTextstyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w500,
-  color: blueColor,
+  color: purpleColor,
 );
 
-TextStyle blueDarkTextstyle = GoogleFonts.poppins(
+TextStyle whiteTextstyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w500,
-  color: blueDarkColor,
+  color: whiteColor,
 );
 
-TextStyle darkTextstyle1 = GoogleFonts.poppins(
+TextStyle darkTextstyle1 = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w500,
   color: darkColor,
 );
 
-TextStyle regularTextstyle = GoogleFonts.poppins(
+TextStyle regularTextstyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w400,
   color: darkColor,
 );
 
-TextStyle redTextstyle = GoogleFonts.poppins(
+TextStyle orangeTextstyle = GoogleFonts.beVietnamPro(
   fontWeight: FontWeight.w400,
-  color: redColor,
+  color: orangeColor,
 );
 
 double edge = 24;
