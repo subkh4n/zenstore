@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:zenstore/core.dart';
-import '../controller/login_controller.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({Key? key}) : super(key: key);
@@ -67,9 +66,9 @@ class LoginView extends StatefulWidget {
               Positioned(
                 top: 0,
                 left: 0,
-                child: Image.network(
-                  "https://capekngoding.com/uploads/62f680369803f_main_top.png",
-                  width: 120,
+                child: Image.asset(
+                  "assets/images/logo.png",
+                  width: 120.0,
                 ),
               ),
               SafeArea(
@@ -162,7 +161,7 @@ class LoginView extends StatefulWidget {
                                             context,
                                             MaterialPageRoute(
                                               builder: (context) {
-                                                return Container();
+                                                return const LogupView();
                                               },
                                             ),
                                           );
