@@ -7,28 +7,6 @@ class LoginView extends StatefulWidget {
   Widget build(context, LoginController controller) {
     controller.view = this;
 
-    /*
-   ------------------------
-   https://capekngoding.com
-   ------------------------
-   Starring:
-   Name: Flutter Way
-   Youtube: https: //www.youtube.com/c/TheFlutterWay/playlists?app=desktop
-   ------------------------
-   [1] Update pubspec.yaml
-   flutter_svg:
-   
-   [2] Import
-   import 'package:flutter_svg/svg.dart';
-   ------------------------
-   Code generation with snippets can be a good solution for you or it can kill you.
-   A basic understanding of Dart and Flutter is required.
-   Keep it in mind, Our snippet can't generate many files yet.
-   So, all of our snippets are put in one file which is not best practice.
-   You need to do the optimization yourself, and at least you are familiar with using Flutter.
-   ------------------------
-   */
-
     return Theme(
       data: ThemeData(
         primaryColor: const Color(0xFF6F35A5),
